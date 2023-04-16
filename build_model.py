@@ -34,15 +34,15 @@ print("Image dimensions:", image_width, "x", image_height)
 print("Label names:", class_names)
 print("Label counts:", [len(image_files[i]) for i in range(num_class)])
 
-plt.subplots(3, 3, figsize=(10, 10))
-for i, k in enumerate(np.random.randint(num_total, size=9)):
-    im = Image.open(image_file_list[k])
-    arr = np.array(im)
-    plt.subplot(3, 3, i + 1)
-    plt.xlabel(class_names[image_label_list[k]])
-    plt.imshow(arr, cmap='gray', vmin=0, vmax=255)
-plt.tight_layout()
-plt.show()
+# plt.subplots(3, 3, figsize=(10, 10))
+# for i, k in enumerate(np.random.randint(num_total, size=9)):
+#     im = Image.open(image_file_list[k])
+#     arr = np.array(im)
+#     plt.subplot(3, 3, i + 1)
+#     plt.xlabel(class_names[image_label_list[k]])
+#     plt.imshow(arr, cmap='gray', vmin=0, vmax=255)
+# plt.tight_layout()
+# plt.show()
 
 train_datagen = ImageDataGenerator(rescale=1. / 255, validation_split=0.2)
 train_generator = train_datagen.flow_from_directory(
@@ -82,11 +82,11 @@ model.fit(
     verbose=1)
 
 # save the model
-# model.save('my_model.h5')
+model.save('my_model')
 
 
 # evaluate the model on test data
-test_loss, test_acc = model.evaluate(train_generator, validation_generator)
+test_loss, test_acc = model.evaluate(validation_generator)
 
 # print the test loss and accuracy
 print('Test loss:', test_loss)
