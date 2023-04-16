@@ -7,20 +7,22 @@ from keras.models import load_model
 from PIL import Image
 
 #load the model
-model = load_model('my_model')
+model = load_model('my_model.h5')
 
 # img_path = 'polar_bearTest.jpg'
 img_path = 'test2teddy_bear.jpg'
 img = Image.open(img_path)
 
 # Resize the image to match the input size of the model
-img = img.resize((480, 640))
+img = img.resize((128, 128))
+# img = img.resize((480, 640))
 
 # Convert the image to a numpy array and normalize its pixel values
 image_array = np.array(img) / 255.0
 
 # Reshape the numpy array to have a batch dimension of 1
 image_array = image_array.reshape((1,) + image_array.shape)
+
 
 # Use the model to make a prediction on the image
 prediction = model.predict(image_array)

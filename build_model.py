@@ -1,11 +1,6 @@
 import os
-import matplotlib.pyplot as plt
 import numpy as np
-# TensorFlow and tf.keras
 import tensorflow as tf
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten
-from keras.layers import Conv2D, MaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
@@ -34,16 +29,8 @@ print("Image dimensions:", image_width, "x", image_height)
 print("Label names:", class_names)
 print("Label counts:", [len(image_files[i]) for i in range(num_class)])
 
-# plt.subplots(3, 3, figsize=(10, 10))
-# for i, k in enumerate(np.random.randint(num_total, size=9)):
-#     im = Image.open(image_file_list[k])
-#     arr = np.array(im)
-#     plt.subplot(3, 3, i + 1)
-#     plt.xlabel(class_names[image_label_list[k]])
-#     plt.imshow(arr, cmap='gray', vmin=0, vmax=255)
-# plt.tight_layout()
-# plt.show()
 
+image_width, image_height= 128, 128
 train_datagen = ImageDataGenerator(rescale=1. / 255, validation_split=0.2)
 train_generator = train_datagen.flow_from_directory(
     data_dir,
@@ -76,13 +63,13 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 model.fit(
     train_generator,
     steps_per_epoch=train_generator.n // train_generator.batch_size,
-    epochs=10,
+    epochs=20,
     validation_data=validation_generator,
     validation_steps=validation_generator.n // validation_generator.batch_size,
     verbose=1)
 
 # save the model
-model.save('my_model')
+model.save('my_model.h5')
 
 
 # evaluate the model on test data
