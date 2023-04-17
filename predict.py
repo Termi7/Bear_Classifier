@@ -35,4 +35,36 @@ data_dir = os.path.join(os.getcwd(), 'data')
 class_names = os.listdir(data_dir)
 predicted_class_name = class_names[predicted_class_index]
 
-print('Predicted class:', predicted_class_name)
+# Print out prediction, info and facts about the type of bear.
+if predicted_class_name == "teddy":
+    print('Predicted class:', predicted_class_name, '\n')
+    with open("Bear Facts/TeddyFacts.txt") as file_object:
+        for line in file_object:
+            l = line.replace("\n", "")
+            print(l)
+elif predicted_class_name == "polar":
+    print('Predicted class:', predicted_class_name, '\n')
+    with open("Bear Facts/PolarFacts.txt") as file_object:
+        for line in file_object:
+            l = line.replace("\n", "")
+            print(l)
+elif predicted_class_name == "black":
+    print('Predicted class:', predicted_class_name, '\n')
+    with open("Bear Facts/BlackFacts.txt") as file_object:
+        for line in file_object:
+            l = line.replace("\n", "")
+            print(l)
+elif predicted_class_name == "panda":
+    print('Predicted class:', predicted_class_name, '\n')
+    with open("Bear Facts/PandaFacts.txt") as file_object:
+        for line in file_object:
+            l = line.replace("\n", "")
+            print(l)
+elif predicted_class_name == "grizzly":
+    print('Predicted class:', predicted_class_name, '\n')
+    with open("Bear Facts/GrizzlyFacts.txt") as file_object:
+        for line in file_object:
+            l = line.replace("\n", "")
+            print(l)
+else:
+    print("NONE")
