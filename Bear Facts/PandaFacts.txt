@@ -1,0 +1,22 @@
+Name: Panda Bear
+Scientific Name: Ailuropoda melanoleuca
+Population: 1864
+Extinction Status: Endangered Species
+Type: Herbivore
+Diet: Bamboo
+Location: Bamboo forests of Shaanxi, Sichuan, and Gansu provinces of China
+1: The typical panda grows from 1.2m to 1.9m.
+2: Pandas are native to south-central China.
+3: In captivity, the average lifespan of a panda is 30 years.
+4: Pandas typically weigh from 70kg to 100kg.
+5: An estimated 1,864 pandas still roam the wild, while 400 are kept in capitvity.
+6: Newly-born pandas are only as big as a stick of butter.
+7: Pandas have the digestive system of a carnivore.
+8: Pandas in captivity are omnivorous.
+9: The panda's name comes from the Nepalese word 'Nigalya Ponya'.
+10: Scientists are uncertain why pandas have their color patterns.
+11: Male pandas usually grow bigger than female pandas.
+12: Wild pandas have a lifespan of 20 years.
+13: Pandas do not hibernate.
+14: Pandas are the only bears with thumbs.
+15: Pandas are strong climbers and swimmers.

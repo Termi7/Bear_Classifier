@@ -1,0 +1,22 @@
+Name: Polar Bear
+Scientific Name: Ursus maritimus
+Population: Between 21,000 and 32,000
+Extinction Status: Endangered
+Type: Carnivore
+Diet: Meat
+Location: Arctic Circle
+1: Adult polar bears can live up to 30 years.
+2: Polar bears weigh between 150 to at least 600 kg.
+3: Newborn polar bears weigh just like a guinea pig.
+4: Female polar bears can concieve at least 5 litter cubs in its lifetime.
+5: Canada houses roughly 60% of the whole polar bear population.
+6: Polar bears are considered to be the largest carnivore on land.
+7: Although polar bears spend most of their time hunting, successful hunts are only at 2%.
+8: Polar bears are fond of "snow baths" to clean their dirty furs after hunting.
+9: A polar bear's blubber, or layer of fat, allows them to survive the harsh environment in the arctic.
+10: Female polar bears give birth in November and December in snow dens to protect the cubs.
+11: The cub follows the mother polar bear to learn hunting and survival skills for 2 years.
+12: White classic polar bears have black skin.
+13: Polar bears can experience overheating despite the cold.
+14: Polar bears are fast on land and in water.
+15: A single seal could keep a polar bear full for 8 days.

@@ -1,0 +1,22 @@
+Name: Black Bear
+Scientific Name: Ursus americanus
+Population: Between 339,000 and 465,000
+Extinction Status: Not Endangered
+Type: Omnivore
+Diet: Plants, fruits, insects, birds, eggs, fish, animals 
+Location: North America, Asia
+1: A black bear's head alone can measure up to 13 inches long.
+2: A black bear's paw can measure up to 10 inches long.
+3: A male black bear averages a weight of around 154 kg.
+4: A female black bear averages a weight of around 106 kg.
+5: The biggest black bear ever recorded reached a weight of around 500 kg.
+6: Black bears can run at a speed of 48 kph.
+7: Black bears diverged from brown bears and polar bears around 5.05 million years ago.
+8: Teddy Roosevelt gained his nickname by refusing to shoot a black bear cub in 1902.
+9: Humans began hunting the black bear between 11,000 and 10,000 B.C.
+10: More black bears live in the world than every other bear species combined.
+11: Black bears can identify colors better than even chimpanzees.
+12: American black bears have a reputation for attacking humans.
+13: American black bears are known to attack livestock.
+14: Black bear hunting peaked during the 18th and 19th centuries.
+15: American and Asian black bears have subtle physical differences from eachother.
