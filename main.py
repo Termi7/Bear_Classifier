@@ -24,7 +24,7 @@ bear_files = {
 
 @app.post("/uploadfile/")
 async def process_image(image: UploadFile = File(...)):
-    allowed_ext = ['jpg', 'jpeg', 'png']
+    allowed_ext = ['jpg', 'jpeg', 'png', 'JPG']
     ext = image.filename.split('.')[-1]
     if ext not in allowed_ext:
         return {"error": "Invalid file type. Please upload an image."}
