@@ -33,12 +33,13 @@ def preprocess_image(img, model_path='my_model.h5', target_size=(128, 128)):
 
 
 #open the image and convert to Image object
-img_path = 'grizzly.jpg'
+img_path = 'panda_test.jpg'
+# img_path = 'polar_bearTest.jpg'
 # img_path = 'polar_bearTest.jpg'
 img = Image.open(img_path)
 
 # call preprocess_image() with the Image object as an argument
-predicted_class_name = preprocess_image(img)
+class_name = preprocess_image(img)
 
 # print the predicted class name
-print('Predicted class:', predicted_class_name)
+print('Predicted class:', class_name)
