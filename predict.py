@@ -27,6 +27,7 @@ def preprocess_image(img, model_path='my_model.h5', target_size=(128, 128)):
     # Get the name of the predicted class
     data_dir = os.path.join(os.getcwd(), 'data')
     class_names = os.listdir(data_dir)
+    class_names = [class_name for class_name in class_names if not class_name.startswith('.')]  # add this line
     predicted_class_name = class_names[predicted_class_index]
 
     return predicted_class_name
