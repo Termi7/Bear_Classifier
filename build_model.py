@@ -9,8 +9,12 @@ from keras.optimizers import Adam
 from keras.optimizers import RMSprop
 from PIL import Image
 
+
 data_dir = os.path.join(os.getcwd(), 'data')
-class_names = os.listdir(data_dir)
+print('Data directory:', data_dir)
+
+class_names = sorted(os.listdir(data_dir))
+
 class_names = [class_name for class_name in class_names if not class_name.startswith('.')]  # add this line
 num_class = len(class_names)
 image_files = [[os.path.join(data_dir, class_name, x)
