@@ -2,8 +2,8 @@ The source code of both the bear image classifier back end
 and the React app for the front end must be installed on your
 machine for it to run.
 
-Open the Project4 folder and there you have the Backend and Image_Classification_React_front_end folders 
-also you have the report file the readeME.md
+Open the Program folder and there you have the Backend and Image_Classification_React_front_end folders 
+also you have the readeME.md
 
 
 To access the backend change directory to the Backend folder
