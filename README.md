@@ -29,4 +29,20 @@ INFO: Waiting for application startup.
 INFO: Application startup complete.
 
 
+The Bears_Testing_images folder contain images that can be used to test the program
+
+For running the React app navigate to the folder 
+Image_Classification_React_front_end . Please make sure React is
+installed on your machine prior to running along with
+npm. If it is follow the below steps.
+• npm install
+• nom install axios
+• npm start
+Both the server and the React front end should work on the local host.
+
+Now that your React website and server backend are live, you can proceed to select an image by clicking on the browse button. 
+Navigate to the "Bears_Testing_images" folder and choose your image from there.
+
+
+
 
