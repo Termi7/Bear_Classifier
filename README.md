@@ -5,10 +5,6 @@ For the back end install the listed files below.
 • Before you do anything install python on your machine
 from https://www.python.org/ and make sure you install
 the pip package manager too.
-*These authors contributed equally.
-Copyright © 2023, Association for the Advancement of Artificial
-Intelligence (www.aaai.org). All rights reserved.
-Figure 1: How the website should look if its run correctly
 • next run pip install –upgrade pip
 • after run pip install TensorFlow==2.12.*
 • Next run pip install Pillow
