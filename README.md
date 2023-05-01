@@ -1,11 +1,11 @@
 # Bear Image Classifier
 
-The Bear Image Classifier is a program that classifies bear images into three categories: black, grizzly, and teddy. This repository contains  the backend.
+The Bear Image Classifier is a program that classifies bear images into five categories: black, grizzly, polar, panda  and teddy. This repository contains  the backend.
 
 ## Installation
 
 To run the Bear Image Classifier, you must have both the backend and the React app for the frontend installed on your machine. 
-
+s
 1. Clone the repository by running the following command in your terminal: 
 ```
 git clone https://github.com/Termi7/Project_4AI.git
