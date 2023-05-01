@@ -11,6 +11,7 @@ def preprocess_image(img, model_path='my_model.h5', target_size=(128, 128)):
 
     # Resize the image to match the input size of the model
     img = img.resize(target_size)
+    # img.save('somepic.jpg')
 
     # Convert the image to a numpy array and normalize its pixel values
     image_array = np.array(img) / 255.0
